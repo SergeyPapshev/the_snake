@@ -13,7 +13,7 @@ YELLOW = (255, 235, 59)
 ORANGE = (255, 152, 0)
 GREY = (158, 158, 158)
 
-display = pygame.display.set_mode( (800, 600) )
+display = pygame.display.set_mode((800, 600))
 
 FPS = 60
 clock = pygame.time.Clock()
@@ -27,9 +27,9 @@ while True:
                 print('Левая стрелка')
             elif event.key == pygame.K_RIGHT:
                 print('Правая стрелка')
-            elif event.key ==pygame.K_UP:
+            elif event.key == pygame.K_UP:
                 print('Стрелка вверх')
-            elif event.key ==pygame.K_DOWN:
+            elif event.key == pygame.K_DOWN:
                 print('Стрелка вниз')
 
     pygame.display.update()
